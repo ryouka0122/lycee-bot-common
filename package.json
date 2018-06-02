@@ -1,0 +1,19 @@
+{
+  "name": "lycee-bot-common",
+  "version": "1.0.0",
+  "description": "hubot common script",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryouka0122/lycee-bot-common.git"
+  },
+  "author": "ryouka0122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryouka0122/lycee-bot-common/issues"
+  },
+  "homepage": "https://github.com/ryouka0122/lycee-bot-common#readme"
+}
