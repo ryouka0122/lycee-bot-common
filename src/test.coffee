@@ -6,9 +6,10 @@
 #
 # Author:
 #   ryouka0122
-module.exports = (robot) ->
-  robot.respond /test( .*)?/i, (msg) ->
-    if msg.match.length == 0
-      msg.send "呼んだ？？"
+module.exports = (robot)
+  robot.respond /test(?:\s+(.*))?$/i, (res) ->
+    msg =  res.match[1]
+    if msg
+      res.send msg
     else
-      msg.send msg.match[1].trim()
+      res.send "呼んだ？？"
