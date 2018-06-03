@@ -10,4 +10,4 @@
 
 module.exports = MathUtil =
   random = (min=1, max=100) ->
-    return Math.floor(Math.rand() * (1 + max - min)) + min
+    return Math.floor(Math.random() * (1 + max - min)) + min
